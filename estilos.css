@@ -1,0 +1,10 @@
+h1{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
