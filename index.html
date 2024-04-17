@@ -11,17 +11,23 @@
 </head> 
 <body>
     <h1>Cervezas</h1>
-    <table class="table" id="tabla-cervezas">
+    <div class="contenedor">
+    <table class="table tabla-general" id="tabla-cervezas">
       <thead>
-        <tr>
+        <tr >
           <th>Nombre</th>
-          <th>Estilo</th>
-        </tr>
+          <th>Precio</th>
+          <th>Valoración Promedio</th>
+          <th>Opiniones</th>
+          <th>Imagen</th>
+      </tr>
       </thead>
       <tbody>
+        <table id="tabla-cervezas-body" class="tabla-general"></table>
         <!-- Las filas se agregarán aquí dinámicamente -->
       </tbody>
     </table>
+  </div>
     
 </body>
 </html>

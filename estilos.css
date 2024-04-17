@@ -1,10 +1,41 @@
+.contenedor{
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Margen automático a cada lado del contenedor para centrarlo horizontalmente */
+    padding: 20px; /* Espacio interno dentro del contenedor */
+    background-color: #f2f2f2; /* Color de fondo del contenedor */
+}
 h1{
     background-color: pink;
     display: flex;
     justify-content: center;
 }
+.tabla-general {
 
-.table{
-    display: flex;
-    justify-content: center;
-}
+    border-collapse: separate; /* Especifica que las celdas deben tener bordes separados */
+    border-spacing: 10px; /* Establece el espacio entre las celdas */
+    width: 100%; /* Establece el ancho de la tabla al 100% del contenedor */
+    border: 2px solid black;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  .tabla-general th, .tabla-general td {
+    padding: 8px; /* Espaciado interno dentro de las celdas */
+    text-align: left; /* Alineación del texto */
+    width: calc(100% / 5); /* Divide el ancho de la tabla en 5 columnas */
+  }
+  
+  /* Estilos para las filas de la tabla */
+  .tabla-general tr {
+    background-color: rgb(255, 255, 255); /* Color de fondo para las filas */
+    color: rgb(0, 0, 0); /* Color de texto para las filas */
+    font-weight: bold; /* Texto más grueso */
+    
+  }
+  th{
+    border: 2px solid black; 
+
+  }
+  td{
+    border: 2px solid black;
+  }
+
